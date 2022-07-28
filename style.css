@@ -104,3 +104,45 @@ input{
     border-radius: 20px;
     color: white;
 }
+.maingrid{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.reviewgrid{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #faf8ef;
+    padding: 30px;
+    border-radius: 30px;
+
+}
+.reviewgrid img{
+    margin-right: 30px;
+}
+.icon{
+    color: orange;
+}
+.gray{
+    color: gray;
+}
+.reviesinglewgrid{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #faf8ef;
+    padding: 30px;
+    border-radius: 30px;
+
+}
+.reviesinglewgrid img{
+    margin-right: 30px;
+}
