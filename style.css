@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@300;600;700&family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    
+}
+body{
+    background-color: #ebe3cd;
+}
+.headerpart{
+    width: 1100px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #12202f;
+    color: white;
+    align-items: center;
+    border-radius: 30px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin-right: 10px;
+}
+/* herosection style part */
+.herosectionpart{
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.herosectionpart img{
+    margin-top: 120px;
+}
+.heading{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.subheading{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.btns{
+    margin-top: 20px;
+}
+.btn1{
+    padding: 10px 15px;
+    border: none;
+    background-color: #df581e;
+    color: white;
+    border-radius: 20px;
+}
+.btn2{
+    background-color: none;
+    border: none;
+    margin-left: 20px;
+    background-color: #ebe3cd;
+}
+.heroendtitel{
+    margin-left: 210px;
+    margin-top: -25px;
+}
+.heroendtitel i{
+    margin-left: 20px;
+}
+/* appoinment sytle start */
+.appoinmentpart{
+    width: 1100px;
+    height: 100px;
+    margin: 70px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 25px;
+
+
+}
+input{
+    border: gray;
+    background-color: #ebe3cd;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.btn3{
+    padding: 20px 35px;
+    background-color: #6bb99c;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
